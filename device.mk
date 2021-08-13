@@ -201,7 +201,8 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    init.performance_level.rc \
 
 # IMS
 PRODUCT_PACKAGES += \
