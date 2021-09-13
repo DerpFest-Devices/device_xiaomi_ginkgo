@@ -345,6 +345,10 @@ PRODUCT_PACKAGES += \
     init.xiaomi_parts.rc \
     ueventd.qcom.rc
 
+# Remove some prebuilt apps
+PRODUCT_PACKAGES += \
+    RemovePackagesDevice
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
